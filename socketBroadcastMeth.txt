@@ -1,0 +1,4 @@
+there are 3 types of methods for broadcast the messages :
+1.socket.emit: broadcast only to the single user that connects.
+2.socket.broadcast.emit: broadcast all the users except the user that connects.
+3.io.emit: broadcast to all the users that are available.
